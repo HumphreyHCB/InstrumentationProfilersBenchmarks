@@ -1,0 +1,399 @@
+VM Arguments: 
+sun.java.command=Harness Permute 10 3500
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.007426, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.007426, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.012763, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.030532, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.042501, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.017766, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.042501, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.042501, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.073042, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.370538, probability=0.101673, bonus=1.000000, nodes=13 <= 111.161529)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.017766, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.042501, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.024730, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.101673, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.636679, probability=0.101673, bonus=1.000000, nodes=13 <= 191.003687)
+                                @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.515888, probability=0.174735, bonus=1.000000, nodes=141 <= 154.766428)
+                                @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.515888, probability=0.243229, bonus=1.000000, nodes=13 <= 154.766428)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.017766, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.042501, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.024730, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.101673, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.370538, probability=0.141528, bonus=1.000000, nodes=13 <= 111.161529)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.024730, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.034424, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.141528, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.636679, probability=0.141528, bonus=1.000000, nodes=13 <= 191.003687)
+                                @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.515888, probability=0.243229, bonus=1.000000, nodes=141 <= 154.766428)
+                              @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.718254, probability=0.418014, bonus=1.000000, nodes=308 > 215.476051)
+                              @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.718254, probability=0.581869, bonus=1.000000, nodes=13 <= 215.476051)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.010337, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.017766, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.042501, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.024730, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.101673, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.370538, probability=0.141528, bonus=1.000000, nodes=13 <= 111.161529)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.024730, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.034424, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.141528, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.636679, probability=0.141528, bonus=1.000000, nodes=13 <= 191.003687)
+                                @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.515888, probability=0.243229, bonus=1.000000, nodes=141 <= 154.766428)
+                                @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.515888, probability=0.338572, bonus=1.000000, nodes=13 <= 154.766428)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.014390, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.024730, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.059161, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.034424, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.141528, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.370538, probability=0.197005, bonus=1.000000, nodes=13 <= 111.161529)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.020030, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.034424, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 20  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.082351, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.114631, bonus=1.000000, nodes=13 <= 79.842158)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.027882, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.137299, probability=0.027882, bonus=1.000000, nodes=13 <= 41.189619)
+                                      @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.191156, probability=0.047917, bonus=1.000000, nodes=54 <= 57.346909)
+                                    @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.266141, probability=0.114631, bonus=1.000000, nodes=89 > 79.842158)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.266141, probability=0.114631, bonus=1.000000, nodes=13 <= 79.842158)
+                                  @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.370538, probability=0.197005, bonus=1.000000, nodes=54 <= 111.161529)
+                                  @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.636679, probability=0.197005, bonus=1.000000, nodes=13 <= 191.003687)
+                                @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=0.515888, probability=0.338572, bonus=1.000000, nodes=141 <= 154.766428)
+                              @ 37  Permute.permute(int):void (53 bytes)   not inlining relevance-based (relevance=0.718254, probability=0.581869, bonus=1.000000, nodes=308 > 215.476051)
+                              @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=0.718254, probability=0.581869, bonus=1.000000, nodes=13 <= 215.476051)
+                              @ 17  java.lang.String.isLatin1():boolean (19 bytes)   trivial (relevance=0.168888, probability=0.143562, bonus=1.000000, nodes=9)
+                              @ 27  java.lang.StringLatin1.hashCode(byte[]):int (52 bytes)   relevance-based (relevance=0.168888, probability=0.143562, bonus=1.000000, nodes=22 <= 50.666367)
+                              @ 1  java.lang.String.isLatin1():boolean (19 bytes)   trivial (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=9)
+                            @ 3  java.lang.String.checkIndex(int, int):void (10 bytes)   inline method (bytecode parsing)
+                              @ 12  java.lang.StringLatin1.charAt(byte[], int):char (15 bytes)   relevance-based (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=11 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                  @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=117)
+                                  @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                  @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=117)
+                                  @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=46 <= 300.000000)
+                                @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                  @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=117)
+                                  @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 20  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=115)
+                                      @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 20  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 32  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=7.274732, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   not inlining it exceeds the maximum recursive inlining depth
+                                          @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=7.274732, bonus=1.000000, nodes=13 <= 300.000000)
+                                        @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=44 <= 300.000000)
+                                        @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=5.226138, bonus=1.000000, nodes=13 <= 300.000000)
+                                      @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=115)
+                                      @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=3.754436, bonus=1.000000, nodes=13 <= 300.000000)
+                                    @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=46 <= 300.000000)
+                                    @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=2.697171, bonus=1.000000, nodes=13 <= 300.000000)
+                                  @ 37  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=117)
+                                  @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.937637, bonus=1.000000, nodes=13 <= 300.000000)
+                                @ 37  Permute.permute(int):void (53 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=46 <= 300.000000)
+                                @ 43  Permute.swap(int, int):void (27 bytes)   relevance-based (relevance=1.000000, probability=1.391990, bonus=1.000000, nodes=13 <= 300.000000)
+                              @ 16  Permute.permute(int):void (53 bytes)   not inlining callee invoke probability is too high (invokeP=5.721617, relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=117)
+                              @ 44  java.lang.StringLatin1.equals(byte[], byte[]):boolean (36 bytes)   relevance-based (relevance=1.000000, probability=0.862657, bonus=1.000000, nodes=33 <= 300.000000)

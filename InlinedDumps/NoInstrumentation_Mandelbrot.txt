@@ -1,0 +1,14 @@
+VM Arguments: 
+sun.java.command=Harness Mandelbrot 10 750
+                              @ 1  java.lang.String.isLatin1():boolean (19 bytes)   trivial (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=9)
+                            @ 3  java.lang.String.checkIndex(int, int):void (10 bytes)   inline method (bytecode parsing)
+                              @ 12  java.lang.StringLatin1.charAt(byte[], int):char (15 bytes)   relevance-based (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=11 <= 300.000000)
+                              @ 17  java.lang.String.isLatin1():boolean (19 bytes)   trivial (relevance=0.170631, probability=0.144820, bonus=1.000000, nodes=9)
+                              @ 27  java.lang.StringLatin1.hashCode(byte[]):int (52 bytes)   relevance-based (relevance=0.170631, probability=0.144820, bonus=1.000000, nodes=22 <= 51.189231)
+                                @ 6  java.lang.String.coder():byte (15 bytes)   trivial (relevance=1.000000, probability=1.000000, bonus=1.000000, nodes=5)
+                              @ 1  java.lang.String.length():int (11 bytes)   trivial (relevance=1.172308, probability=1.000000, bonus=1.000000, nodes=8)
+                              @ 43  jdk.internal.org.objectweb.asm.ByteVector.enlarge(int):void (73 bytes)   relevance-based (relevance=0.172308, probability=0.146982, bonus=1.000000, nodes=31 <= 51.692308)
+                                @ 1  java.lang.String.isLatin1():boolean (19 bytes)   trivial (relevance=1.000000, probability=22.699475, bonus=1.000000, nodes=9)
+                            @ 3  java.lang.String.checkIndex(int, int):void (10 bytes)   inline method (bytecode parsing)
+                                @ 12  java.lang.StringLatin1.charAt(byte[], int):char (15 bytes)   relevance-based (relevance=1.000000, probability=22.699475, bonus=1.000000, nodes=11 <= 300.000000)
+                              @ 85  java.lang.String.charAt(int):char (25 bytes)   relevance-based (relevance=1.000000, probability=22.699475, bonus=1.000000, nodes=16 <= 300.000000)
